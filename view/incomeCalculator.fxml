@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #15172b;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomeCalculatoController">
+   <top>
+      <AnchorPane prefHeight="214.0" prefWidth="400.0" style="-fx-background-color: #15172b;" BorderPane.alignment="CENTER">
+         <children>
+            <DatePicker fx:id="date" layoutX="166.0" layoutY="70.0" prefHeight="26.0" prefWidth="177.0" style="-fx-background-color: #303245;" />
+            <TextField fx:id="incomePrice" layoutX="166.0" layoutY="112.0" prefHeight="26.0" prefWidth="178.0" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" />
+            <Text fill="#fcf3f3" layoutX="165.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Income">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="incomeSubject" layoutX="164.0" layoutY="152.0" prefHeight="55.0" prefWidth="181.0" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" />
+            <Label layoutX="100.0" layoutY="68.0" text="Date :" textFill="#fcf8f8">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="49.0" layoutY="113.0" text="IncomePrice :" textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="167.0" text="Subject :" textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="incomeuserId" editable="false" layoutX="166.0" layoutY="31.0" />
+            <Label layoutX="84.0" layoutY="35.0" text="userId :" textFill="#faf7f7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="207.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#f4f2f2" layoutX="83.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="69.5196533203125">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="priceCost" layoutX="170.0" layoutY="96.0" prefHeight="26.0" prefWidth="178.0" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" />
+            <TextField fx:id="costSubject" layoutX="169.0" layoutY="139.0" prefHeight="55.0" prefWidth="181.0" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" />
+            <Text fill="#f7f3f3" layoutX="191.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cost">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="typeCost" accessibleRole="CHECK_MENU_ITEM" layoutX="170.0" layoutY="49.0" prefHeight="26.0" prefWidth="177.0" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" />
+            <Label layoutX="100.0" layoutY="48.0" text="Type :" textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="96.0" text="Cost price :" textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="152.0" text="Subject :" textFill="#f7f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="89.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="submit" layoutX="170.0" layoutY="39.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #08d;" text="Submit" textFill="#f7f5f5">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="incomeBack" layoutX="21.0" layoutY="45.0" mnemonicParsing="false" onAction="#incomeBack" prefHeight="26.0" prefWidth="64.0" style="-fx-background-color: #08d;" text="Back" textFill="#f7f1f1" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
