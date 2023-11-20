@@ -12,7 +12,7 @@
    <children>
       <VBox prefHeight="556.0" prefWidth="500.0" AnchorPane.bottomAnchor="-6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <TableView fx:id="tableView" onMouseClicked="#displaySelected" prefHeight="606.0" prefWidth="500.0">
+            <TableView fx:id="tableView" prefHeight="606.0" prefWidth="500.0">
               <columns>
                   <TableColumn fx:id="id" prefWidth="47.200013756752014" text="id" />
                 <TableColumn fx:id="date" prefWidth="108.0000228881836" text="date" />
