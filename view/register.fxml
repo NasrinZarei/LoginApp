@@ -44,14 +44,14 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <Button fx:id="save" mnemonicParsing="false" onAction="#saveUser" prefHeight="32.0" prefWidth="111.0" style="-fx-background-color: #098;" text="SignUp" textFill="#efecec" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Button fx:id="save" mnemonicParsing="false" onAction="#saveUser" prefHeight="32.0" prefWidth="111.0" style="-fx-background-color: #08d;" text="SignUp" textFill="#efecec" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font></Button>
             <TextField fx:id="nameandfamily" promptText="Name&amp;Family" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" />
-            <TextField fx:id="phone"  promptText="Phone :" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="email"  promptText="Email:" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="password"  promptText="Password :" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="phone" promptText="Phone :" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="email" promptText="Email:" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="password" promptText="Password :" style="-fx-background-color: #EBECF0; -fx-border-color: #098;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
       <Text fill="WHITE" layoutX="138.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp" textAlignment="CENTER" wrappingWidth="144.79217529296875">
@@ -59,7 +59,7 @@
             <Font size="32.0" />
          </font>
       </Text>
-      <Button fx:id="backRegister" layoutX="31.0" layoutY="454.0" mnemonicParsing="false" onAction="#backRegister" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #098;" text="Back" textFill="#faf1f1">
+      <Button fx:id="backRegister" layoutX="31.0" layoutY="454.0" mnemonicParsing="false" onAction="#backRegister" prefHeight="26.0" prefWidth="72.0" style="-fx-background-color: #08d;" text="Back" textFill="#faf1f1">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
