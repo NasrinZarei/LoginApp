@@ -1,4 +1,4 @@
-# Customer Management System
+# Daily income and expenditure system
 This is a JavaFXML application that allows users to save and retrieve their income information by registering and logging in.
 
 ## Features
